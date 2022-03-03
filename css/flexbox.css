@@ -67,7 +67,7 @@ header {
 /*seccionMi*/
 
 .acercaDeMi {
-	height: 200px;
+	height: 250px;
 }
 
 /*pasatiemposHabilidades*/
@@ -82,7 +82,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	height: 380px;
+	height: 400px;
 }
 
 .ulSkills {
@@ -100,6 +100,7 @@ header {
 .skillsImagen {
 	height: 80px;
 	width: 80px;
+	padding: 10px;
 }
 
 .parrafoSkills {
@@ -243,10 +244,110 @@ header {
 		text-align: left;
 	}
 
+	.portadaElementoElementoH1 {
+		padding: 5px;
+		padding-left: 5px;
+		text-align: left;
+	}
+
 	.listaRedes {
 		padding-left: 0px;
 		text-align: center;
 		display: inline-flex;
+	}
+
+	/*seccionMi*/
+
+	.acercaDeMi {
+		height: 400px;
+	}
+
+	/*skills*/
+
+	.navSkills {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 500px;
+	}
+
+	.ulSkills {
+		display: flex;
+		flex-wrap: wrap;
+	}	
+
+	.liSkills {
+	    border-radius: 10px;
+		width: 40%;
+		height: 110px;
+		margin: 5px;
+	}	
+
+	.skillsImagen {
+		height: 50px;
+		width: 50px;
+		padding: 5px;
+	}
+
+	.parrafoSkills {
+		padding-left: 10px;
+	}
+
+	/*Hobbies*/
+
+	.navHobbies {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 260px;
+	}
+
+	.liHobbies {
+    border-radius: 10px;
+	width: 40%;
+	height: 110px;
+	margin: 5px;
+	}	
+
+	.hobbiesImagen {
+		height: 50px;
+		width: 50px;
+		padding: 5px;
+	}
+
+	.parrafoHobbies {
+		padding-left: 10px;
+	}
+
+	/*Formacion*/
+
+	.navFormacion {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 880px;
+	}
+
+	.ulFormacion {
+		display: flex;
+		flex-wrap: wrap;
+	}	
+
+	.liFormacion {
+	    border-radius: 10px;
+		width: 80%;
+		height: 190px;
+		margin: 10px;
+		text-align: center;
+	}	
+
+	.formacionImagen {
+		height: 80px;
+		width: 80px;
+	}
+
+	.parrafoFormacion {
+		padding-left: 10px;
 	}
 
 	/*Proyectos*/
