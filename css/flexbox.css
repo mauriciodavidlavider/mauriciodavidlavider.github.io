@@ -1,0 +1,280 @@
+
+header {
+	text-align: center;
+}
+
+.parrafo {
+	padding-left: 20px;
+}
+
+/*cabezera*/
+
+.cabezera {
+	padding: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabezeraNav {
+	display: flex;
+	align-items: center;
+}
+
+.cabezeraElemento {
+	padding: 10px;
+}
+
+/*portada*/
+
+.portada {
+	padding: 20px;
+	display: flex;
+}
+
+.portadaElemento: {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.portadaElementoElemento {
+	padding: 5px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+.portadaElementoElementoH1 {
+	padding: 5px;
+	padding-left: 35px;
+	text-align: left;
+}
+
+/*redes*/
+
+.listaRedes {
+	padding-left: 0px;
+	text-align: center;
+	display: inline-flex;
+}
+
+.redes {
+	padding: 10px;
+	list-style: none;
+}
+
+/*seccionMi*/
+
+.acercaDeMi {
+	height: 200px;
+}
+
+/*pasatiemposHabilidades*/
+
+.pasatiemposHabilidades {
+	
+}
+
+/*skills*/
+
+.navSkills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 380px;
+}
+
+.ulSkills {
+	display: flex;
+	flex-wrap: wrap;
+}	
+
+.liSkills {
+    border-radius: 10px;
+	width: 22%;
+	height: 160px;
+	margin: 10px;
+}	
+
+.skillsImagen {
+	height: 80px;
+	width: 80px;
+}
+
+.parrafoSkills {
+	padding-left: 10px;
+}
+
+/*Hobbies*/
+
+.navHobbies {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 200px;
+}
+
+.ulHobbies {
+	display: flex;
+	flex-wrap: wrap;
+}	
+
+.liHobbies {
+    border-radius: 10px;
+	width: 22%;
+	height: 160px;
+	margin: 10px;
+}	
+
+.hobbiesImagen {
+	height: 80px;
+	width: 80px;
+}
+
+.parrafoHobbies {
+	padding-left: 10px;
+}
+
+/*Formacion*/
+
+.navFormacion {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 470px;
+}
+
+.ulFormacion {
+	display: flex;
+	flex-wrap: wrap;
+}	
+
+.liFormacion {
+    border-radius: 10px;
+	width: 30%;
+	height: 200px;
+	margin: 10px;
+}	
+
+.formacionImagen {
+	height: 80px;
+	width: 80px;
+}
+
+.parrafoFormacion {
+	padding-left: 10px;
+}
+
+/*Proyectos*/
+
+.proyectos {
+	display: fixed;
+	flex-direction: column;
+	text-align: center;
+}
+
+.divProyectos {
+	padding: 20px;
+    padding-left: 5%;
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+}
+
+.proyectosImagen {
+	width: 80%;
+}
+
+.izqProyectos {
+	width: 10%;
+}
+
+.derProyectos {
+	width: 10%;
+}
+
+.flechas {
+	width: 100%;
+}
+
+.divProyectosBotones {
+	padding: 20px;
+	padding-top: 0px;
+    padding-left: 14%;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+}
+
+.botonesProyectos {
+	text-align: center;
+	height: 40px;
+	width: 45%;
+}
+
+/*Pie de pagina*/
+
+.parrafoPie {
+	padding-left: 20px;
+}
+
+@media(max-width: 768px){
+
+	header {
+		text-align: center;
+	}
+
+	/*cabezera*/
+
+	.cabezera {
+		display: none;
+	}
+
+	/*portada*/
+
+	.portada {
+		display: block;
+		align-items: center;
+	}
+
+	.portadaElementoElemento {
+		padding: 5px;
+		text-align: left;
+	}
+
+	.listaRedes {
+		padding-left: 0px;
+		text-align: center;
+		display: inline-flex;
+	}
+
+	/*Proyectos*/
+
+	.proyectos {
+		display: fixed;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.divProyectos {
+		padding: 20px;
+	    padding-left: 5%;
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+	}
+
+	.proyectosImagen {
+		width: 80%;
+	}
+
+	.botones {
+		width: 10%;
+	}
+
+	.flechas {
+		width: 100%;
+	}
+
+}

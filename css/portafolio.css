@@ -1,0 +1,226 @@
+
+body {
+	background-color: #000;
+}
+
+.titulo {
+	color: #fff;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.tituloCentrado {
+	color: #fff;
+	padding: 0px;
+}
+
+.parrafo {
+	color: #fff;
+	font-size: 25px;
+}
+
+/*cabezera*/
+
+.cabezeraTitulo {
+	color: #fff;
+}
+
+.cabezeraElemento {
+	color: #fff;
+	font-weight: bold;
+}
+
+.cabezeraElemento:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.cabezeraElemento:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.cabezeraElemento:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*portada*/
+
+#portadaFoto {
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.portadaElementoElemento {
+	color: #fff;
+	font-size: 25px;
+	font-family: cursive, sans-serif;
+}
+
+.portadaElementoElementoH1 {
+	color: #fff;
+	font-size: 42px;
+}
+
+/*redes*/
+
+.linkRedes:link {
+	color: #fff;
+}
+
+.linkRedes:visited {
+	color: #fff;
+}
+
+.linkRedes:hover {
+	color: #aaccaa;
+}
+
+/*SeccionMi*/
+
+.acercaDeMi {
+	background-color: #16161E;
+	border-radius: 10px;
+}
+
+/*Pasatiempos y Habilidades*/
+
+.pasatiemposHabilidades {
+	background-color: #0;
+}
+
+/*Skills*/
+
+.ulSkills {
+	list-style: none;
+}
+
+.liSkills {
+	background-color: #fff;
+}
+
+.skillsImagen {
+	padding: 10px;
+}
+
+.parrafoSkills {
+	color: #000;
+	font-weight: bold;
+}
+
+/*Hobbies*/
+
+.ulHobbies {
+	list-style: none;
+}
+
+.liHobbies {
+	background-color: #fff;
+}
+
+.hobbiesImagen {
+	padding: 10px;
+}
+
+.parrafoHobbies {
+	color: #000;
+	font-weight: bold;
+}
+
+/*Formacion*/
+
+.formacionesCursos {
+	background-color: #16161E;
+	border-radius: 10px;
+}
+
+.ulFormacion {
+	list-style: none;
+}
+
+.liFormacion {
+	background-color: #fff;
+}
+
+.formacionImagen {
+	padding: 10px;
+}
+
+.parrafoFormacion {
+	color: #000;
+	font-weight: bold;
+}
+
+/*Proyectos*/
+
+.divProyectos {
+}
+
+.botones {
+	background-color: #000;
+	border-style: none;
+}
+
+.botonesProyectos {
+	border-style: none;
+}
+
+#paginaWeb {
+	background-color: #fff;
+}
+
+#repositorio {
+	background-color: #16161E;
+}
+
+#textoBotonWeb {
+	color: #000;
+	font-weight: bold;
+}
+
+#textoBotonRepo {
+	color: #fff;
+	font-weight: bold;
+}
+
+#paginaWeb:link {
+	background-color: #fff;
+}
+
+#paginaWeb:visited {
+	background-color: #fff;
+}
+
+#paginaWeb:hover {
+	background-color: #bbb;
+}
+
+#repositorio:link {
+	background-color: #16161E;
+}
+
+#repositorio:visited {
+	background-color: #16161E;
+}
+
+#repositorio:hover {
+	background-color: #161616;
+}
+
+/*Pie de pagina*/
+
+.parrafoPie {
+	color: #fff;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+

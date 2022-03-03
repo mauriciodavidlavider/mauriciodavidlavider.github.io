@@ -1,0 +1,219 @@
+
+<!-- var ya no, ahora es let ; quitar valor = null-->
+<!-- variable = --nombre: "valor"; uso = var(--nombre); -->
+
+<!DOCTYPE html>
+
+<html> 
+
+	<head lang="es">   <!-- Activa traduccion automatica en otros navegadores -->
+		<meta name="viewport" content="width=device-width initial-scale=1.0">   <!-- Ajustes para celular -->
+		<meta charset="UTF-8">
+		<title>Portafolio Mauricio Estrella</title>
+		<!--<link rel="stylesheet" href="css/reset.css" type="text/css" />-->
+		<link rel="stylesheet" href="css/portafolio.css" type="text/css" />
+		<link rel="stylesheet" href="css/flexbox.css" type="text/css" />
+	</head>
+
+	<body>
+
+		<header class="header">
+			<div class="cabezera">
+				<h2 class="cabezeraTitulo">Mauricio Estrella</h2>
+
+				<nav class="cabezeraNav">
+					<a class="cabezeraElemento" href="#sobreMi">Sobre mi</a>
+					<a class="cabezeraElemento" href="#skills">Skills</a>
+					<a class="cabezeraElemento" href="#hobbies">Hobbies</a>
+					<a class="cabezeraElemento" href="#formacion">Formación</a>
+					<a class="cabezeraElemento" href="#proyectos">Proyectos</a>
+					<p class="cabezeraElemento">m.davidestrella@gmail.com</p>
+				</nav>
+			</div>
+
+			<div class="portada">
+				<img class="portadaElemento" id="portadaFoto" src="mau.png" alt="Logo">
+				<div class="portadaElemento"> 
+					<h1 class="portadaElementoElementoH1">Hola, mi nombre es Mauricio Estrella y construyo paginas web</h1> 
+					<p class="portadaElementoElemento">Actualmente me encuentro en formación como diseñador web y formo parte del proyecto Oracle ONE en Alura Latam.</p>
+				</div>
+			</div> 
+
+			<nav> 
+				<ul class="listaRedes"> 
+					<li class="redes"><a class="linkRedes" href="https://github.com/mauriciodavidlavider"><b>GitHub</b></a></li> 
+					<li class="redes"><a class="linkRedes"href="https://linkedin.com/in/mauricio-estrella"><b>Linkedin</b></a></li> 
+					<li class="redes"><a class="linkRedes" href="https://www.instagram.com/mauriciolavider/?hl=es"><b>Instagram</b></a></li> 
+					<li class="redes"><a class="linkRedes" href="https://drive.google.com/file/d/1ta5jVC1kS4i_QrNk3roa1y_Wydcj-6Y4/view?usp=sharing"><b>Curriculo</b></a></li> 
+				</ul> 
+			</nav> 
+		</header>
+        
+		<main>
+
+			<section class="acercaDeMi" id="sobreMi">
+				<h2 class="titulo">Sobre mi</h2>
+				<p class="parrafo">Soy un entusiasta de las tecnologias emergentes, apasionado por la robotica y la programación,
+				durante mi estadia en la Universidad participe en competencias escolares obeteniendo premios a nivel 
+				nacional e internacional en el area de minirobotica, cansat y competencias baja SAE.</p>
+			</section>
+
+			<section class="pasatiemposHabilidades" id="skills">
+				<h2 class="titulo">Skills</h2>
+				<nav class="navSkills">
+					<ul class="ulSkills">
+						<li class="liSkills"><img class="skillsImagen" src="Skills/html.png"><p class="parrafoSkills">HTML</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/css.png"><p class="parrafoSkills">CSS</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/javascript.png"><p class="parrafoSkills">JavaScript</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/python.png"><p class="parrafoSkills">Python</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/c++.png"><p class="parrafoSkills">C++</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/micropython.png"><p class="parrafoSkills">Microphyton</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/modelado3D.png"><p class="parrafoSkills">CAD</p></li>
+						<li class="liSkills"><img class="skillsImagen" src="Skills/impresion3D.png"><p class="parrafoSkills">Impresion3D</p></li>
+					</ul>
+				</nav>
+				<h2 class="titulo" id="hobbies">Hobbies</h2>
+				<nav class="navHobbies">
+					<ul class="ulHobbies">
+						<li class="liHobbies"><img class="hobbiesImagen" src="Hobbies/bajo.png"><p class="parrafoHobbies">Tocar el bajo</p></li>
+						<li class="liHobbies"><img class="hobbiesImagen" src="Hobbies/jardineria.png"><p class="parrafoHobbies">Cultivo de plantas</p></li>
+						<li class="liHobbies"><img class="hobbiesImagen" src="Hobbies/leer.png"><p class="parrafoHobbies">Leer</p></li>
+						<li class="liHobbies"><img class="hobbiesImagen" src="Hobbies/minirobotica.png"><p class="parrafoHobbies">Minirobotica</p></li>
+					</ul>
+				</nav>
+			</section>
+
+			<section class="formacionesCursos" id="formacion">
+				<h2 class="titulo">Formación Academica</h2>
+				<nav class="navFormacion">
+					<ul class="ulFormacion">
+						<li class="liFormacion">
+							<img class="formacionImagen" src="Formacion/upiita.png">
+							<p class="parrafoFormacion">Ingenieria en Biónica</p>
+							<p class="parrafoFormacion">2016-inconclusa UPIITA-IPN</p>
+						</li>
+						<li class="liFormacion">
+							<img class="formacionImagen" src="Formacion/alura.png">
+							<p class="parrafoFormacion">ONE Oracle Next Education</p>
+							<p class="parrafoFormacion">2022-Actual Alura</p>
+						</li>
+						<li class="liFormacion">
+							<img class="formacionImagen" src="Formacion/generation.png">
+							<p class="parrafoFormacion">Java Full Stack developer</p>
+							<p class="parrafoFormacion">2022-Actual Generation México</p>
+						</li>
+						<li class="liFormacion">
+							<img class="formacionImagen" src="Formacion/ipn.png">
+							<p class="parrafoFormacion">Técnico en aeronáutica</p>
+							<p class="parrafoFormacion">2012-2015 Cecyt7-IPN</p>
+						</li>
+					</ul>
+				</nav>
+			</section>
+
+			<section class="proyectos" id="proyectos">
+				<h2 class="tituloCentrado">Proyectos</h2>
+				<div class="divProyectos">
+					<button class="botones" id="izqProyectos">
+						<img class="flechas" src="Proyectos/flechaIzquierda.png">
+					</button>
+					<img class="proyectosImagen" id="proyecto" src="Proyectos/ahorcado.png">
+					<button class="botones" id="derProyectos">
+						<img class="flechas" src="Proyectos/flechaDerecha.png">
+					</button>
+				</div>
+				<div class="divProyectosBotones">
+					<button id="paginaWeb" class="botonesProyectos"><p id="textoBotonWeb">Pagina Web</p></button>
+					<button id="repositorio" class="botonesProyectos"><p id="textoBotonRepo">Repositorio</p></button>
+				</div>
+			</section>
+
+			<section id="contacto">
+				<h2 class="titulo">Contacto</h2>
+			</section>
+		</main>
+
+		<p class="parrafoPie">Desarrollado por Mauricio Estrella 2022</p>
+
+	</body>
+
+	<script>
+
+		const maximoProyectos = 1;
+		let posicion = 0; 
+		let img = document.getElementById("proyecto")
+
+		function menos() {
+			posicion--;
+
+			if(posicion<0) {
+				posicion = maximoProyectos;
+			} 
+
+			cambiarFoto();
+		}
+
+		function mas() {
+			posicion++;
+
+			if(posicion>maximoProyectos) {
+				posicion = 0;
+			}
+
+			cambiarFoto();
+		}
+
+        function cambiarFoto() {
+
+        	switch(posicion) {
+        		case 0:
+        			img.src = "Proyectos/ahorcado.png"
+        			break;
+        		case 1:
+        			img.src = "Proyectos/encriptador.png"
+        			break;
+        		default:
+        			posicion = 0;
+        	}
+
+        }
+
+        function goWeb() {
+
+        	switch(posicion) {
+        		case 0:
+        			window.open("https://juegoahorcadome.web.app");
+        			break;
+        		case 1:
+        			window.open("https://encriptadortextome.web.app");
+        			break;
+        	}
+       
+        }
+
+        function goGit() {
+
+        	switch(posicion) {
+        		case 0:
+        			window.open("https://github.com/mauriciodavidlavider/semana3y4.github.io");
+        			break;
+        		case 1:
+        			window.open("https://github.com/mauriciodavidlavider/semana1y2.github.io");
+        			break;
+        	}
+       
+        }
+
+        let menosVar = document.querySelector("#izqProyectos");
+        menosVar.onclick = menos;
+        let masVar = document.querySelector("#derProyectos");
+        masVar.onclick = mas;
+
+        let paginaWeb = document.querySelector("#paginaWeb");
+        paginaWeb.onclick = goWeb;
+        let repositorio = document.querySelector("#repositorio");
+        repositorio.onclick = goGit;
+
+	</script>
+
+</html>
