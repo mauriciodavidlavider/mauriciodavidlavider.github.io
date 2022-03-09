@@ -81,14 +81,14 @@ body {
 /*SeccionMi*/
 
 .acercaDeMi {
-	background-color: #16161E;
+	background-color: #3A4761;
 	border-radius: 10px;
 }
 
 /*Pasatiempos y Habilidades*/
 
 .pasatiemposHabilidades {
-	background-color: #0;
+	background-color: #000;
 }
 
 /*Skills*/
@@ -128,7 +128,7 @@ body {
 /*Formacion*/
 
 .formacionesCursos {
-	background-color: #16161E;
+	background-color: #3A4761;
 	border-radius: 10px;
 }
 
@@ -151,9 +151,6 @@ body {
 
 /*Proyectos*/
 
-.divProyectos {
-}
-
 .botones {
 	background-color: #000;
 	border-style: none;
@@ -168,7 +165,7 @@ body {
 }
 
 #repositorio {
-	background-color: #16161E;
+	background-color: #3A4761;
 }
 
 #textoBotonWeb {
@@ -194,15 +191,60 @@ body {
 }
 
 #repositorio:link {
-	background-color: #16161E;
+	background-color: #3A4761;
 }
 
 #repositorio:visited {
-	background-color: #16161E;
+	background-color: #3A4761;
 }
 
 #repositorio:hover {
 	background-color: #161616;
+}
+
+/*Contacto*/
+
+.contacto {
+	background-color: #3A4761;
+	border-radius: 10px;
+}
+
+.liContacto {
+	list-style: none;
+}
+
+.liContactoTitulo {
+	list-style: none;
+	text-align: left;
+}
+
+.inputContacto {
+	border-radius: 30px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #000;
+    outline-style: none;
+}
+
+.textareaContacto {
+	resize: none;
+	border-radius: 15px;
+	border-width: 5px;
+	border-color: #000;
+	outline-style: none;
+}
+
+.buttonContacto {
+	color: #fff;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #000;
+	border-color: #000;
+}
+
+#contactoFoto {
+	border-radius: 10px;
 }
 
 /*Pie de pagina*/

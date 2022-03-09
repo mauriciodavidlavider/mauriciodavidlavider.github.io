@@ -214,6 +214,69 @@ header {
 	width: 45%;
 }
 
+/*Formulario*/
+
+.tituloContacto {
+	padding: 20px;
+}
+
+.contacto {
+	text-align: center;
+}
+
+.navContacto {
+	height: 500px;
+	text-align: center;
+	display: inline-flex;
+}
+
+.ulContacto {
+	align-content: center;
+	margin-top: 40px;
+	padding: 0px;
+}
+
+.liContactoTitulo {
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.contactoTituloP {
+	padding: 0px;
+	margin: 0px;
+}
+
+.liContacto {
+	width: auto;
+	height: auto;
+	margin: 5px;
+}
+
+.inputContacto {
+	height: 30px;
+	width: 330px;
+	text-align: center;
+}
+
+.textareaContacto {
+	height: 130px;
+	width: 325px;
+	size: fixed;
+}
+
+.buttonContacto {
+	height: 40px;
+	width: 340px;
+}
+
+#contactoFoto {
+	margin: 40px;
+	height: 82%;
+	width: 35%;
+}
+
 /*Pie de pagina*/
 
 .parrafoPie {
@@ -376,6 +439,35 @@ header {
 
 	.flechas {
 		width: 100%;
+	}
+
+	/*Contacto*/
+
+	.ulContacto {
+		align-content: center;
+		margin-top: 5px;
+		padding: 0px;
+	}
+
+	.inputContacto {
+		height: 30px;
+		width: 300px;
+		text-align: center;
+	}
+	
+	.textareaContacto {
+		height: 130px;
+		width: 300px;
+		size: fixed;
+	}
+	
+	.buttonContacto {
+		height: 40px;
+		width: 300px;
+	}	
+
+	#contactoFoto {
+		display: none;
 	}
 
 }

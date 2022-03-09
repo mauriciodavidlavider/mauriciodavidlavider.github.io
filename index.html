@@ -11,7 +11,7 @@
 		<meta charset="UTF-8">
 		<title>Portafolio Mauricio Estrella</title>
 		<!--<link rel="stylesheet" href="css/reset.css" type="text/css" />-->
-		<link rel="stylesheet" href="css/portafolio.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/flexbox.css" type="text/css" />
 	</head>
 
@@ -128,92 +128,28 @@
 				</div>
 			</section>
 
-			<section id="contacto">
-				<h2 class="titulo">Contacto</h2>
+			<section class="contacto">
+				<h2 class="tituloContacto">Contacto</h2>
+				<nav class="navContacto">
+					<img id="contactoFoto" src="envio.png" alt="Contacto">
+					<ul class="ulContacto">
+						<li class="liContactoTitulo"><p class="contactoTituloP">Nombre</p></li>
+						<li class="liContacto"><input class="inputContacto" id="nombre" required></li>
+						<li class="liContactoTitulo"><p class="contactoTituloP">E-mail</p></li>
+						<li class="liContacto"><input class="inputContacto" id="email" required></li>
+						<li class="liContactoTitulo"><p class="contactoTituloP">Asunto</p></li>
+						<li class="liContacto"><input class="inputContacto" id="asunto" required></li>
+						<li class="liContacto"><textarea class="textareaContacto" id="mensaje" required></textarea></li>
+						<li class="liContacto"><button class="buttonContacto" id="enviar">Enviar mensaje</button></li>
+					</ul>
+				</nav>
 			</section>
 		</main>
 
 		<p class="parrafoPie">Desarrollado por Mauricio Estrella 2022</p>
 
+		<script src="mecanicas.js"></script>
+
 	</body>
-
-	<script>
-
-		const maximoProyectos = 1;
-		let posicion = 0; 
-		let img = document.getElementById("proyecto")
-
-		function menos() {
-			posicion--;
-
-			if(posicion<0) {
-				posicion = maximoProyectos;
-			} 
-
-			cambiarFoto();
-		}
-
-		function mas() {
-			posicion++;
-
-			if(posicion>maximoProyectos) {
-				posicion = 0;
-			}
-
-			cambiarFoto();
-		}
-
-        function cambiarFoto() {
-
-        	switch(posicion) {
-        		case 0:
-        			img.src = "Proyectos/ahorcado.png"
-        			break;
-        		case 1:
-        			img.src = "Proyectos/encriptador.png"
-        			break;
-        		default:
-        			posicion = 0;
-        	}
-
-        }
-
-        function goWeb() {
-
-        	switch(posicion) {
-        		case 0:
-        			window.open("https://juegoahorcadome.web.app");
-        			break;
-        		case 1:
-        			window.open("https://encriptadortextome.web.app");
-        			break;
-        	}
-       
-        }
-
-        function goGit() {
-
-        	switch(posicion) {
-        		case 0:
-        			window.open("https://github.com/mauriciodavidlavider/Challenge-Oracle-ONE-Semana3-4.git");
-        			break;
-        		case 1:
-        			window.open("https://github.com/mauriciodavidlavider/Challenge-Oracle-ONE-Semana1-2.git");
-        			break;
-        	}
-       
-        }
-
-        let menosVar = document.querySelector("#izqProyectos");
-        menosVar.onclick = menos;
-        let masVar = document.querySelector("#derProyectos");
-        masVar.onclick = mas;
-
-        let paginaWeb = document.querySelector("#paginaWeb");
-        paginaWeb.onclick = goWeb;
-        let repositorio = document.querySelector("#repositorio");
-        repositorio.onclick = goGit;
-
-	</script>
 
 </html>
