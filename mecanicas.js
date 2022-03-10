@@ -80,11 +80,7 @@ paginaWeb.onclick = goWeb;
 let repositorio = document.querySelector("#repositorio");
 repositorio.onclick = goGit;
 
-let masVar = document.querySelector("#derProyectos");
-masVar.onclick = mas;
-
 //Contacto
 
-let mensajeTexto = document.querySelector("#mensaje");
-mensajeTexto.value = "Formulario no disponible";
-
+var mensajeTexto = document.querySelector("#mensaje");
+mensajeTexto.placeholder = "Formulario no disponible.";

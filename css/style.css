@@ -81,7 +81,7 @@ body {
 /*SeccionMi*/
 
 .acercaDeMi {
-	background-color: #3A4761;
+	background-color: #121220;
 	border-radius: 10px;
 }
 
@@ -128,7 +128,7 @@ body {
 /*Formacion*/
 
 .formacionesCursos {
-	background-color: #3A4761;
+	background-color: #121220;
 	border-radius: 10px;
 }
 
@@ -165,7 +165,7 @@ body {
 }
 
 #repositorio {
-	background-color: #3A4761;
+	background-color: #121220;
 }
 
 #textoBotonWeb {
@@ -191,11 +191,11 @@ body {
 }
 
 #repositorio:link {
-	background-color: #3A4761;
+	background-color: #121220;
 }
 
 #repositorio:visited {
-	background-color: #3A4761;
+	background-color: #121220;
 }
 
 #repositorio:hover {
@@ -205,8 +205,16 @@ body {
 /*Contacto*/
 
 .contacto {
-	background-color: #3A4761;
+	background-color: #121220;
 	border-radius: 10px;
+}
+
+.tituloContacto {
+	color: #fff;
+}
+
+.liContactoTitulo {
+	color: #fff;
 }
 
 .liContacto {
