@@ -9,10 +9,10 @@
 	<head lang="es">   <!-- Activa traduccion automatica en otros navegadores -->
 		<meta name="viewport" content="width=device-width initial-scale=1.0">   <!-- Ajustes para celular -->
 		<meta charset="UTF-8">
-		<title>Portafolio Mauricio Estrella</title>
 		<!--<link rel="stylesheet" href="css/reset.css" type="text/css" />-->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/flexbox.css" type="text/css" />
+		<title>Portafolio Mauricio Estrella</title>
 	</head>
 
 	<body>
@@ -83,34 +83,6 @@
 				</nav>
 			</section>
 
-			<section class="formacionesCursos" id="formacion">
-				<h2 class="titulo">Formación Academica</h2>
-				<nav class="navFormacion">
-					<ul class="ulFormacion">
-						<li class="liFormacion">
-							<img class="formacionImagen" src="Formacion/upiita.png">
-							<p class="parrafoFormacion">Ingenieria en Biónica</p>
-							<p class="parrafoFormacion">2016-inconclusa UPIITA-IPN</p>
-						</li>
-						<li class="liFormacion">
-							<img class="formacionImagen" src="Formacion/alura.png">
-							<p class="parrafoFormacion">ONE Oracle Next Education</p>
-							<p class="parrafoFormacion">2022-Actual Alura</p>
-						</li>
-						<li class="liFormacion">
-							<img class="formacionImagen" src="Formacion/generation.png">
-							<p class="parrafoFormacion">Java Full Stack developer</p>
-							<p class="parrafoFormacion">2022-Actual Generation México</p>
-						</li>
-						<li class="liFormacion">
-							<img class="formacionImagen" src="Formacion/ipn.png">
-							<p class="parrafoFormacion">Técnico en aeronáutica</p>
-							<p class="parrafoFormacion">2012-2015 Cecyt7-IPN</p>
-						</li>
-					</ul>
-				</nav>
-			</section>
-
 			<section class="proyectos" id="proyectos">
 				<h2 class="tituloCentrado">Proyectos</h2>
 				<div class="divProyectos">
@@ -138,9 +110,9 @@
 						<li class="liContactoTitulo"><p class="contactoTituloP">E-mail</p></li>
 						<li class="liContacto"><input class="inputContacto" id="email" type="email" required></li>
 						<li class="liContactoTitulo"><p class="contactoTituloP">Asunto</p></li>
-						<li class="liContacto"><input class="inputContacto" id="asunto" required></li>
+						<li class="liContacto"><input class="inputContacto" id="asunto" type="text" required></li>
 						<li class="liContacto"><textarea class="textareaContacto" id="mensaje" required></textarea></li>
-						<li class="liContacto"><button class="buttonContacto" id="enviar">Enviar mensaje</button></li>
+						<li class="liContacto"><button class="buttonContacto" id="enviar" onclick="envioFormulario()">Enviar mensaje</button></li>
 					</ul>
 				</nav>
 			</section>
